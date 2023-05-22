@@ -23,6 +23,7 @@ public class Foe implements GetDetails{
 			hp = val;
 		}
 		
+		@Override
 		public void getDetails() {
 			System.out.println("Foe\nHp: "+ hp +" | attack: " + attack + " | defense: " + defense);
 		}
